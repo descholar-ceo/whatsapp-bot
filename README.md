@@ -1,6 +1,5 @@
 # whatsapp-bot
-![Linters](https://github.com/descholar-ceo/whatsapp-bot/workflows/Linters/badge.svg)  ![Tests](https://github.com/descholar-ceo/whatsapp-bot/workflows/Tests/badge.svg)  [![Gem Version](https://badge.fury.io/rb/whatsapp-bot-ruby.svg)](https://badge.fury.io/rb/whatsapp-bot-ruby)
-
+> Badges
 
 ## Description
 > Description of the project
