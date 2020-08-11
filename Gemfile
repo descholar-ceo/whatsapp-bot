@@ -2,9 +2,7 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem 'dotenv'
-gem 'json'
-gem 'net-http-persistent', '~> 2.9', '>= 2.9.4'
-gem 'rspec', '~>3.0'
-gem 'rubocop', '~>0.81.0'
-gem 'telegram-bot-ruby'
+gem 'envyable', '~> 1.2'
+gem 'http', '~> 4.4'
+gem 'sinatra', '~> 2.0'
+gem 'twilio-ruby', '~> 5.39'

@@ -1,1 +1,0 @@
-bot: bin/main.rb
