@@ -3,25 +3,10 @@
 
 
 ## Description
-`whatsapp-bot` is a chatbot built on top of [Telegram messenger](https://telegram.org/), this means you access it via [Telegram messenger](https://telegram.org/). It is able to help you with the following: 
-- Giving you statistics of COVID-19 (Corona virus)
-- Giving you word of bravity
-- Telling you programming quote
-- Telling the current time
-- Telling you the current date
+> Description of the project
 
 ## Built with
 * [Ruby](https://www.ruby-lang.org/en/)
-
-## Screenshots
-The following screenshots, show you the command and it's response (Command : header, response:screenshot)
-|`/start`|`/help`|`quote`|
-|-|-|-|
-|![](assets/start-command.png)|![](assets/help-commands.png)|![](assets/quote-command.png)|
-
-|`word`|`covid/usa`|`date`|
-|-|-|-|
-![](assets/word-command.png)|![](assets/covid-command.png)|![](assets/date-command.png)
 
 ## Contributions
 
