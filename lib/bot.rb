@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class WhatsAppBot < Sinatra::Base
   use Rack::TwilioWebhookAuthentication, ENV['TWILIO_AUTH_TOKEN'], '/bot'
-  get '/bot' do
+  post '/bot' do
     body = params['Body'].downcase
     response = Twilio::TwiML::MessagingResponse.new
     response.message do |msg|
