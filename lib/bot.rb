@@ -9,7 +9,7 @@ class WhatsAppBot < Sinatra::Base
       if msg.start_with? 'translate'
         msg.body("That's great, I will send you a solution soon")
       else
-        msg.body("Cool! But that is not clear to me! Sorry!")
+        msg.body('Cool! But that is not clear to me! Sorry!')
       end
     end
     content_type 'text/xml'
