@@ -12,5 +12,6 @@ class WhatsAppBot < Sinatra::Base
       end
     end
     content_type 'text/xml'
+    response.to_xml
   end
 end
