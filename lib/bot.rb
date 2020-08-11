@@ -11,6 +11,7 @@ class WhatsAppBot < Sinatra::Base
       else
         msg.body('Cool! But that is not clear to me! Sorry!')
       end
+      puts message
     end
     content_type 'text/xml'
     response.to_xml
